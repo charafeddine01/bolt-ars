@@ -13,7 +13,7 @@ export const products: Product[] = [
     fireClass: 'B-s1,d0',
     color: ['White', 'Grey', 'Blue'],
     profile: 'Trapezoidal',
-    image: 'src/data/products.ts',
+    image: 'products/45.jpg',
     description: 'High-performance PIR roof panels with excellent thermal insulation and weather resistance.',
     features: [
       'Superior thermal performance',
