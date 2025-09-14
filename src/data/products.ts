@@ -130,7 +130,7 @@ export const products: Product[] = [
     uValue: 0.28,
     color: ['White', 'Grey', 'Brown'],
     profile: 'Sectional',
-    image: '/src/data/39.jpg',
+    image: 'products/39.jpg',
     description: 'Heavy-duty insulated sectional doors for industrial and commercial applications.',
     features: [
       'High-cycle operation',
@@ -157,7 +157,7 @@ export const products: Product[] = [
     facing: 'Steel 0.6mm',
     color: ['White', 'Grey', 'Custom RAL'],
     profile: 'Various',
-    image: 'products/47.jpg',
+    image: 'products/47.png',
     description: 'Complete range of flashing and trim components for professional panel installation.',
     features: [
       'Weather-tight seal',
