@@ -130,7 +130,7 @@ export const products: Product[] = [
     uValue: 0.28,
     color: ['White', 'Grey', 'Brown'],
     profile: 'Sectional',
-    image: 'https://images.pexels.com/photos/1095814/pexels-photo-1095814.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/src/data/45.jpg',
     description: 'Heavy-duty insulated sectional doors for industrial and commercial applications.',
     features: [
       'High-cycle operation',
