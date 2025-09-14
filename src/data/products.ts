@@ -44,7 +44,7 @@ export const products: Product[] = [
     fireClass: 'B-s1,d0',
     color: ['White', 'Cream', 'Light Grey'],
     profile: 'Micro-ribbed',
-    image: 'https://images.pexels.com/photos/834892/pexels-photo-834892.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'products/33.jpg',
     description: 'Sleek micro-profile wall panels offering superior insulation and modern aesthetics.',
     features: [
       'Micro-profile design',
@@ -72,7 +72,7 @@ export const products: Product[] = [
     fireClass: 'A2-s1,d0',
     color: ['White', 'Grey'],
     profile: 'Flat',
-    image: 'https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'products/43.jpg',
     description: 'Non-combustible rockwool panels providing maximum fire protection and acoustic performance.',
     features: [
       'Non-combustible core',
@@ -101,7 +101,7 @@ export const products: Product[] = [
     uValue: 0.11,
     color: ['Stainless', 'White'],
     profile: 'Tongue & Groove',
-    image: 'https://images.pexels.com/photos/3992204/pexels-photo-3992204.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'products/35.jpg',
     description: 'Specialized panels for cold storage applications with superior insulation and hygienic surfaces.',
     features: [
       'Food-grade surfaces',
@@ -130,7 +130,7 @@ export const products: Product[] = [
     uValue: 0.28,
     color: ['White', 'Grey', 'Brown'],
     profile: 'Sectional',
-    image: '/src/data/45.jpg',
+    image: '/src/data/39.jpg',
     description: 'Heavy-duty insulated sectional doors for industrial and commercial applications.',
     features: [
       'High-cycle operation',
@@ -157,7 +157,7 @@ export const products: Product[] = [
     facing: 'Steel 0.6mm',
     color: ['White', 'Grey', 'Custom RAL'],
     profile: 'Various',
-    image: 'https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'products/47.jpg',
     description: 'Complete range of flashing and trim components for professional panel installation.',
     features: [
       'Weather-tight seal',
