@@ -16,6 +16,7 @@ export interface Product {
   applications: string[];
   specifications: Record<string, string>;
   datasheet?: string;
+  enabled?: boolean;
 }
 
 export interface ContactFormData {

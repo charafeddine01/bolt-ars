@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { Filter, Search, Grid, List } from 'lucide-react';
-import { products } from '../data/products';
+import { useProducts } from '../hooks/useProducts';
 import { FilterState } from '../types';
 import ProductCard from '../components/UI/ProductCard';
 import FilterSidebar from '../components/UI/FilterSidebar';
@@ -20,6 +20,8 @@ const Catalog: React.FC = () => {
     color: [],
     profile: []
   });
+
+  const { products } = useProducts(true);
 
   const filteredProducts = useMemo(() => {
     return products.filter(product => {
